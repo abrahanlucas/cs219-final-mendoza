@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Abrahan Mendoza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-container">
+        <a href="index.html" class="logo">Abrahan<span>Mendoza</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About</a></li>
+            <li><a href="blogs.html">Blog</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="contact-page">
+    <div class="container contact-grid">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>📧 lucasmendoza908@gmail.com</p>
+            <p>📞 240-342-9824</p>
+            <p>📍 4433 Adrienne Court, Jefferson, Maryland</p>
+            <p>🌐 Bilingual: Spanish (Native) / English (Fluent)</p>
+            <div class="map-placeholder">🗺️ [Map: Jefferson, MD area]</div>
+        </div>
+        
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <div class="error" id="nameError"></div>
+                
+                <input type="email" id="email" placeholder="Email Address" required>
+                <div class="error" id="emailError"></div>
+                
+                <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+                <div class="error" id="msgError"></div>
+                
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+            <div id="formSuccess" class="success-message"></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2025 Abrahan Mendoza — Academic Portfolio</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

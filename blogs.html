@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Abrahan Mendoza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-container">
+        <a href="index.html" class="logo">Abrahan<span>Mendoza</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About</a></li>
+            <li><a href="blogs.html">Blog</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="page-header">
+    <div class="container">
+        <h1>Projects & Blog</h1>
+        <input type="text" id="searchInput" placeholder="Search projects..." class="search-input">
+        <div class="filter-pills" id="filterPills">
+            <button class="pill active" data-category="all">All</button>
+            <button class="pill" data-category="webdev">Web Dev</button>
+            <button class="pill" data-category="cert">Certifications</button>
+            <button class="pill" data-category="hardware">Hardware</button>
+            <button class="pill" data-category="work">Work Experience</button>
+        </div>
+    </div>
+</section>
+
+<section class="featured-post">
+    <div class="container">
+        <div class="featured-card">
+            <h2>⭐ Featured: E-Commerce Website (Academic Project)</h2>
+            <p>Developed a responsive, multi-page website for a fictional company, integrating 7+ pages into a unified platform. Engineered the front-end using HTML5, CSS3 (Flexbox/Grid), and JavaScript. Demo and source code available upon request.</p>
+            <a href="blog-post.html">Read full case study →</a>
+        </div>
+    </div>
+</section>
+
+<section class="blog-grid-section">
+    <div class="container">
+        <div class="blog-grid" id="blogGrid"></div>
+        <div class="pagination" id="pagination">
+            <button id="prevBtn">Previous</button>
+            <span id="pageInfo">Page 1</span>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2025 Abrahan Mendoza — Academic Portfolio</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
